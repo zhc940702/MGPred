@@ -11,8 +11,21 @@ we develop a novel prediction model for drug side effect frequencies, using a mu
 
 
 # Files:
+1.original_data
+This folder contains our original side effects and drugs data.
+DAG.py: for calculating the semantic similarity of side effects.
+drug_side_effects.py: for constructing the drug-side-effects interaction matrix.
+ADR_Drug.xlsx: side effect descriptors from ADReCS database.
+drug_id: The name of drugs in our dataset.
+side_id: The name of side effects in our dataset.
+Sup_1.xlsx: The known drug-side effect frequency class associations.
+drug_SMILES.xlsx: The SMILES sequences of drugs.
 
-1.data
+
+
+
+
+2.data
 
 This folder contains 5 input files needed by our model.
 
